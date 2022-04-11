@@ -30,6 +30,16 @@ Mantine and Next UI. Buttons on top of the page\
 allow to choose which type of cards are displayed.\
 After clicking on 'Buy now' button the form is shown.
 
+## Mantine
+
+![image](https://user-images.githubusercontent.com/82031803/162730568-27f8e649-053a-49fd-8bcd-6257af57d867.png)
+![image](https://user-images.githubusercontent.com/82031803/162730642-e41edbfd-cb85-406f-8649-af547d7542c4.png)
+
+## NextUI
+
+![image](https://user-images.githubusercontent.com/82031803/162731444-cc62d166-617b-4928-af56-44189efe5b44.png)
+![image](https://user-images.githubusercontent.com/82031803/162731409-acfe2f0c-ecf4-4bd2-bf2d-312b900bd251.png)
+
 ## Conclusions
 
 Working with both libraries was really convinient and easy.\
