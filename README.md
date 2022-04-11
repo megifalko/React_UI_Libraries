@@ -3,7 +3,7 @@
 This is a project created to test new React UI Libraries.
 I've decided to out check two different libraries:
 
-- [Next UI](https://nextui.org/)
+- [NextUI](https://nextui.org/)
 - [Mantine](https://mantine.dev/)
 
 ## What are the key features I'm looking for?
