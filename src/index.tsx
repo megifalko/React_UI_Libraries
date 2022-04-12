@@ -37,6 +37,7 @@ const mtheme: MantineThemeOverride = {
 		],
 	},
 	primaryColor: "khaki-green",
+	loader: 'oval'
 };
 
 ReactDOM.render(

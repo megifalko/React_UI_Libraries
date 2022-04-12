@@ -18,7 +18,7 @@ const Mantine = (props: propsType) => {
 		theme.colorScheme === "dark" ? theme.colors.dark[1] : theme.colors.gray[7];
 
 	return (
-		<div style={{width: 340}}>
+		<div id={props.url} style={{width: 340}}>
 			<Card shadow="sm" p="lg" radius="lg">
 				<Card.Section>
 					<Image src={props.url} height={250} />

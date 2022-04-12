@@ -1,4 +1,4 @@
-import {Card, Image, Text, Badge, Button, Group, useMantineTheme, Space} from "@mantine/core";
+import {Card, Image, Text, Badge, Button, Group, useMantineTheme, Space, Loader} from "@mantine/core";
 import {useState} from "react";
 import MantineModal from "./MantineModal";
 
@@ -10,9 +10,9 @@ const MantineBlur = (props: propsType) => {
 	const [modalOpened, setModalOpened] = useState(false);
 	const theme = useMantineTheme();
 	return (
-		<Card shadow="sm" p="lg" radius="lg" style={{width: "340px", paddingBottom: "0"}}>
+		<Card id={props.url} shadow="xl" p="lg" radius="lg" style={{width: "340px", paddingBottom: "0"}}>
 			<Card.Section>
-				<Image src={props.url} height={400} />
+				<Image src={props.url} height={400} withPlaceholder placeholder={<Loader/>}></Image>
 			</Card.Section>
 			<div className="blurred">
 				<Group position="apart">

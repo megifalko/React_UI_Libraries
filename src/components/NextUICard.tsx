@@ -6,7 +6,7 @@ interface propsType {
 }
 const NextUI = (props: propsType) => {
 	return (
-		<Card cover css={{width: "340px", height: "400px"}}>
+		<Card id={props.url} cover css={{width: "340px", height: "400px"}}>
 			<Card.Header css={{position: "absolute", top: 0}}>
 				<Col>
 					<Text size={14} weight="bold" transform="uppercase" color="#ffffffd2">

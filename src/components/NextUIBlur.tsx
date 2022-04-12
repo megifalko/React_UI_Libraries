@@ -9,7 +9,7 @@ interface propsType{
 const NextUIBlur = (props: propsType) => {
     const [modalOpened, setModalOpened] = useState(false);
 	return (
-		<Card cover css={{w: "340px", height: "400px"}}>
+		<Card id={props.url} cover css={{w: "340px", height: "400px"}}>
 			<Card.Header css={{position: "absolute", zIndex: 1, top: 5}}>
 				<Col>
 					<Text size={14} weight="bold" transform="uppercase" color="#ffffffd2">

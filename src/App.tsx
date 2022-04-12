@@ -21,10 +21,10 @@ const App = () => {
 					transitionDuration={500}
 					transitionTimingFunction="linear"
 					data={[
-						{label: "Mantine Card with blur", value: "0"},
-						{label: "Mantine Card", value: "1"},
-						{label: "NextUI Card with blur", value: "2"},
-						{label: "NextUI Card", value: "3"},
+						{label: "Mantine Card", value: "0"},
+						{label: "Simple Mantine Card", value: "1"},
+						{label: "NextUI Card", value: "2"},
+						{label: "Simple NextUI Card", value: "3"},
 					]}
 				/>
 			</Group>
@@ -32,13 +32,13 @@ const App = () => {
 			{images.map((image) => {
 				switch (value) {
 					case "0":
-						return <MantineBlur url={image} />;
+						return <MantineBlur url={image} key={image}/>;
 					case "1":
-						return <Mantine url={image} />;
+						return <Mantine url={image} key={image}/>;
 					case "2":
-						return <NextUIBlur url={image} />;
+						return <NextUIBlur url={image} key={image}/>;
 					default:
-						return <NextUI url={image} />;
+						return <NextUI url={image} key={image}/>;
 				}
 			})}
 		</div>
