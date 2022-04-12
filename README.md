@@ -32,13 +32,12 @@ After clicking on 'Buy now' button the form is shown.
 
 ## Mantine
 
-![image](https://user-images.githubusercontent.com/82031803/162730568-27f8e649-053a-49fd-8bcd-6257af57d867.png)
-![image](https://user-images.githubusercontent.com/82031803/162730642-e41edbfd-cb85-406f-8649-af547d7542c4.png)
-
+![obraz](https://user-images.githubusercontent.com/82031803/162951581-a25494a6-0d65-4c48-8997-6ece29d3843d.png)
+![obraz](https://user-images.githubusercontent.com/82031803/162951663-bad5738a-a857-4c6f-99fa-f33a53902ed8.png)
 ## NextUI
 
-![image](https://user-images.githubusercontent.com/82031803/162731444-cc62d166-617b-4928-af56-44189efe5b44.png)
-![image](https://user-images.githubusercontent.com/82031803/162731409-acfe2f0c-ecf4-4bd2-bf2d-312b900bd251.png)
+![obraz](https://user-images.githubusercontent.com/82031803/162951754-83ef21d4-7a61-4057-bed5-bbb1a9fe0f35.png)
+![obraz](https://user-images.githubusercontent.com/82031803/162951791-9766a9f5-1fec-4662-b502-69d50dd5ffba.png)
 
 ## Conclusions
 
