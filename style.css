@@ -1,0 +1,80 @@
+* {
+	font-family: "Nunito" !important;
+}
+
+.App {
+	display: flex;
+	flex-direction: row;
+	gap: 50px;
+	justify-content: center;
+	align-items: center;
+	padding: 50px 100px;
+	flex-wrap: wrap;
+}
+
+.dissapear {
+	display: none;
+}
+
+/* .blurred{
+    position: absolute;
+    bottom: 0;
+    padding: 20px;
+    backdrop-filter: saturate(180%) blur(10px);
+    width: 100%;
+    left: 0;
+    display: flex;
+    flex-direction: column;
+    align-content: center;
+    justify-content: center;
+    align-items: stretch;
+    background: rgba(19, 19, 19, 0.4);
+} */
+
+@supports (-webkit-backdrop-filter: none) or (backdrop-filter: none) {
+	.blurred {
+		position: absolute;
+		bottom: 0;
+		padding: 20px;
+		-webkit-backdrop-filter: saturate(180%) blur(10px);
+		backdrop-filter: saturate(180%) blur(10px);
+		width: 100%;
+		left: 0;
+		display: flex;
+		flex-direction: column;
+		align-content: center;
+		justify-content: center;
+		align-items: stretch;
+		background: rgba(19, 19, 19, 0.4);
+	}
+}
+
+@supports not ((-webkit-backdrop-filter: none) or (backdrop-filter: none)) {
+	.blurred {
+		position: absolute;
+		bottom: 0;
+		padding: 20px;
+		background-color: rgba(64, 64, 64, 0.61);
+		width: 100%;
+		left: 0;
+		display: flex;
+		flex-direction: column;
+		align-content: center;
+		justify-content: center;
+		align-items: stretch;
+        overflow-y: hidden;
+        z-index: 1;
+	}
+	.blurred::before {
+		filter: blur(60px);
+		z-index: -1;
+		content: "";
+		position: absolute;
+		top: 0;
+		right: 0;
+		bottom: 0;
+		left: 0;
+        margin-bottom: -80px;
+        background-color: rgba(0,0,0, 0.80);
+	}
+}
