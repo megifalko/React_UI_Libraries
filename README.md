@@ -31,12 +31,11 @@ allow to choose which type of cards are displayed.\
 After clicking on 'Buy now' button the form is shown.
 
 ## Mantine
-
-![obraz](https://user-images.githubusercontent.com/82031803/162951581-a25494a6-0d65-4c48-8997-6ece29d3843d.png)
+![obraz](https://user-images.githubusercontent.com/82031803/163122624-0fcf0095-febd-469c-a166-d3afcbb2b8b2.png)
 ![obraz](https://user-images.githubusercontent.com/82031803/162951663-bad5738a-a857-4c6f-99fa-f33a53902ed8.png)
 ## NextUI
 
-![obraz](https://user-images.githubusercontent.com/82031803/162951754-83ef21d4-7a61-4057-bed5-bbb1a9fe0f35.png)
+![obraz](https://user-images.githubusercontent.com/82031803/163122728-343e16ec-9aff-4cd4-ad1b-f202a64ac975.png)
 ![obraz](https://user-images.githubusercontent.com/82031803/162951791-9766a9f5-1fec-4662-b502-69d50dd5ffba.png)
 
 ## Conclusions
